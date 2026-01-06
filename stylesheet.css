@@ -419,7 +419,7 @@ span {
     padding: 10rem 3%;
   }
   .services {
-    padding: 10rem;
+    padding: 0rem;
   }
 }
 
@@ -642,7 +642,7 @@ span {
 
 
 
-@media screen and (max-width: 363px) {
+@media screen and (max-width: 360px) {
 
   .services-container {
     display: block;   /* flex remove */
@@ -651,7 +651,7 @@ span {
   .services-box {
     width: 95vw !important;   /* almost full screen */
     max-width: 95vw !important;
-    margin: 0 auto 3rem;
+    /* margin: 0 auto 3rem; */
     padding: 5.5rem 3rem;    /* box ko visually bara */
   }
 
