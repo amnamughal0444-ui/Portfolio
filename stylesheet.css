@@ -518,118 +518,141 @@ span {
 
 
 
+@media screen and (max-width: 360px) {
 
-
-
-@media screen and (max-width: 500px) {
-
-  /* ======================
-     HOME IMAGE FIX
-  ====================== */
-  .home-img img {
-    width: 80vw;      /* width zyada */
-    height: auto;     /* height auto */
-    max-width: 300px; /* limit */
+  html {
+    font-size: 46%;
   }
 
-  /* ======================
-     ABOUT HEADING FIX
-  ====================== */
+  /* ================= HOME ================= */
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-content {
+    margin: 0;
+  }
+
+  .home-content h1 {
+    font-size: 3.8rem;
+  }
+
+  .home-content h2 {
+    font-size: 2.4rem;
+  }
+
+  .home-content p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
+
+  .home-img img {
+    width: 85vw;      /* image wide */
+    max-width: 280px;
+    height: auto;     /* height fix */
+    margin-top: 2.5rem;
+  }
+
+  /* ================= ABOUT ================= */
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 75vw;
+    max-width: 260px;
+  }
+
+  .about-content {
+    margin: 0;
+    padding: 0 1.2rem;
+  }
+
   .about-content h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     text-align: center;
     line-height: 1.3;
   }
 
   .about-content h3 {
-    font-size: 2.4rem;
-    text-align: center;
+    font-size: 2.2rem;
     margin-top: 1rem;
   }
 
   .about-content p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1.6;
     text-align: center;
   }
 
-  /* ======================
-     SERVICES BOX FIX
-  ====================== */
+  /* ================= SERVICES ================= */
   .services-container {
     flex-direction: column;
   }
 
   .services-box {
     width: 100%;
-    max-width: 100%;
-    padding: 4.5rem 2.5rem;
+    padding: 4rem 2rem;
   }
 
   .services-box i {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
 
   .services-box h3 {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   .services-box p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+  }
+
+  /* ================= CONTACT ================= */
+  .contact-container {
+    flex-direction: column;
+    padding: 20px 12px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info h1 {
+    font-size: 3.2rem;
+  }
+
+  /* ================= FOOTER ================= */
+  .footer-bottom {
+    font-size: 1.1rem;
+    padding: 18px;
+  }
+}
+
+/* //// */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 363px) {
+
+  .services-container {
+    display: block;   /* flex remove */
+  }
+
+  .services-box {
+    width: 95vw !important;   /* almost full screen */
+    max-width: 95vw !important;
+    margin: 0 auto 3rem;
+    padding: 5.5rem 3rem;    /* box ko visually bara */
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
