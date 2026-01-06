@@ -18,7 +18,7 @@ window.onscroll = () => {
 // ✅ Typed.js
 document.addEventListener("DOMContentLoaded", function () {
   new Typed(".multiple-text", {
-    strings: ["Front-End Developer", "Using HTML" , "CSS & JavaScript"],
+    strings: ["Front-End", "Developer"],
     typeSpeed: 50,
     backSpeed: 80,
     backDelay: 1200,
