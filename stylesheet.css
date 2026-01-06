@@ -513,7 +513,7 @@ span {
 /* =========================
    SMALL MOBILE (max-width: 480px)
 ========================= */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   html {
     font-size: 50%;
   }
@@ -536,4 +536,4 @@ span {
   .contact-form {
     padding: 25px;
   }
-}
+} */
